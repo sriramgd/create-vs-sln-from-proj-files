@@ -2,7 +2,9 @@ create-vs-sln-from-proj-files
 =============================
 
 Create one visual studio solution (.sln) file per project file recursively in a directory.
-
+I use this to generate .sln files for large repositories which have only .csproj or .vbproj files.
+Mainly for use with OmniSharp-vim - https://github.com/OmniSharp/omnisharp-vim.
+Existing programs did not allow one solution per one project file.
 
 Install
 =======
